@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.assignment.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/nav_data_entry_fragment"
+        android:name="com.example.assignment.DataEntryFragment"
+        android:label="Data Entry" />
+    <fragment
+        android:id="@+id/nav_daily_record_fragment"
+        android:name="com.example.assignment.DailyRecordFragment"
+        android:label="Daily Record" />
+    <fragment
+        android:id="@+id/nav_reports_fragment"
+        android:name="com.example.assignment.ReportsFragment"
+        android:label="Pain Location Summary" />
+    <fragment
+        android:id="@+id/nav_maps_fragment"
+        android:name="com.example.assignment.MapsFragment"
+        android:label="Maps" />
+    <fragment
+        android:id="@+id/nav_pain_weather_line_chart"
+        android:name="com.example.assignment.PainWeatherLineChart"
+        android:label="Pain Weather Summary" />
+</navigation>
